@@ -1,4 +1,4 @@
-.intro {
+#intro {
     margin: auto;
 
     color: rgb(0, 119, 255, 0.9);
@@ -7,12 +7,12 @@
     font-size: 18px;
 }
 
-.intro > p {
+#intro > p {
     color: rgb(221, 144, 0);
     font-size: 18px;
 }
 
-.intro > a {
+#intro > a {
     padding: 10px;
 
     border-style: solid;
@@ -25,7 +25,7 @@
     font-size: 18px;
 }
 
-.intro > a:hover {
+#intro > a:hover {
     background-color: rgb(221, 144, 0);
 
     color: white;
