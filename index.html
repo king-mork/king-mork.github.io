@@ -4,19 +4,19 @@
     <meta charset="utf-8"/>
     <title>Marcus King - Software Developer</title>
 
-    <link rel="stylesheet" type="text/css" href="./src/css/header.css"/>
-    <link rel="stylesheet" type="text/css" href="./src/css/index.css"/>
-    <link rel="stylesheet" type="text/css" href="src/css/about.css"/>
-    <link rel="stylesheet" type="text/css" href="src/css/projects.css"/>
-    <link rel="stylesheet" type="text/css" href="src/css/skills.css"/>
-    <link rel="stylesheet" type="text/css" href="src/css/resume.css"/>
-    <link rel="stylesheet" type="text/css" href="src/css/contact.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/about.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/projects.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/skills.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/resume.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/contact.css"/>
 </head>
 <body>
     <!--Header Menu-->
     <div id="header-menu"></div>
     <script>
-        fetch("./src/header_menu.html")
+        fetch("/src/header_menu.html")
             .then(response => response.text())
             .then(data => {
                 document.getElementById("header-menu").innerHTML = data;

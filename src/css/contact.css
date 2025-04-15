@@ -1,0 +1,19 @@
+#contact-info {
+    margin: auto;
+
+    text-align: center;
+
+    color: rgb(0, 119, 255, 0.9);
+    font-size: 18px;
+}
+    
+.contact-link {
+    display: flex;
+    
+    padding-left: 45%;
+}
+
+.contact-link > * {
+    margin-left: 6px;
+    margin-right: 6px;
+}
