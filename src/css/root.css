@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+
+    background-color: white;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+#body {
+    padding-bottom: 60px;
+}

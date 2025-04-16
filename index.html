@@ -4,41 +4,52 @@
     <meta charset="utf-8"/>
     <title>Marcus King - Software Developer</title>
 
+    <link rel="stylesheet" type="text/css" href="/src/css/root.css"/>
     <link rel="stylesheet" type="text/css" href="/src/css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/footer.css"/>
     <link rel="stylesheet" type="text/css" href="/src/css/index.css"/>
     <link rel="stylesheet" type="text/css" href="/src/css/about.css"/>
     <link rel="stylesheet" type="text/css" href="/src/css/projects.css"/>
     <link rel="stylesheet" type="text/css" href="/src/css/skills.css"/>
-    <link rel="stylesheet" type="text/css" href="/src/css/resume.css"/>
-    <link rel="stylesheet" type="text/css" href="/src/css/contact.css"/>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
-    <!--Header Menu-->
-    <div id="header-menu"></div>
-    <script>
-        fetch("/src/header_menu.html")
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("header-menu").innerHTML = data;
-            })
-            .catch(err => console.error("Error loading header menu:", err));
-    </script>
-    <!--Header Menu End-->
+    <div id="container">
+        <!--Header Menu-->
+        <div id="header"></div>
+        <script>
+            $(function(){
+                $("#header").load("/src/header_menu.html");
+            });
+        </script>
+        <!--Header Menu End-->
 
-    <section>
-        <div id="intro">
-            <br><br>
-            <h1>Hello World...</h1>
-            <h2>My name is Marcus and I like to build cool things.</h2>
-            <br><br><br>
-            <p>
-                I'm an experienced <span style="font-weight: bold;">Software Developer</span> based out of Calgary, Alberta.
-                <br>I strive to produce high-quality programs that users can rely on and enjoy interacting with.
-            </p>
-            <br><br>
-            <a href="">Learn More</a>
+        <div id="body">
+            <div id="intro">
+                <br><br><br>
+                <h1>Hello World...</h1>
+                <h2>My name is Marcus and I like to build cool things.</h2>
+                <br><br><br>
+                <p>
+                    I'm an experienced <span style="font-weight: bold; color: rgb(221, 144, 0);">Software Developer</span> based out of Calgary, Alberta.
+                    <br>I strive to produce high-quality programs that users can rely on and enjoy interacting with.
+                </p>
+                <br>
+                <a href="/src/about.html">About Me</a>
+                <a href="/resources/CV - William (Marcus) King.pdf" target="_blank">View Resumé</a>
+            </div>
         </div>
-    </section>
+
+        <!-- Footer Menu -->
+        <div id="footer"></div>
+        <script>
+            $(function(){
+                $("#footer").load("/src/footer_menu.html");
+            });
+        </script>
+        <!-- Footer Menu End -->
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Marcus King - About Me</title>
+
+    <link rel="stylesheet" type="text/css" href="/src/css/root.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/about.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/projects.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/skills.css"/>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <!--Header Menu-->
+        <div id="header"></div>
+        <script>
+            $(function(){
+                $("#header").load("/src/header_menu.html");
+            });
+        </script>
+        <!--Header Menu End-->
+
+        <div id="body">
+            <div class="content-block">
+                <h2>Professional Career...</h2>
+                <p>
+                    I received my Bachelors in Computer Science from the beautiful University of Victoria
+                    in 2021. During my time at UVic, I got the opportunity to do an 8 month work-term with
+                    CGI, an IT consulting firm wherein I got work as a QA Analyst. My primary responsibilities
+                    were concerned with the writing of automated test cases and the further development of our
+                    Selenium-based testing framework.
+                </p>
+                <p>
+                    The majority of my career so far has been spent as a software dev at a VFX and animation
+                    company: DNEG. I spent more than two and a half years developing and maintaining various 
+                    tools and applications that served an instrumental role in DNEG's production pipeline.
+                    Initially I was part of a Python 3 conversion team, but after a few months I stepped into
+                    the role of a developer in Core Services. Aside from maintaining core libraries
+                    and expanding the usage of GraphQL services/APIs, it was here that I built my first web
+                    application. The application in question was a UI that rendered an interative, hierarchical
+                    graph that visualized assets and their relation to one another.
+                </p>
+            </div>
+
+            <div class="content-block">
+                <h2>In my spare time...</h2>
+                <p>
+                    I love to rock climb at the local gyms and crags in the Calgary area. It's a hobby and 
+                    community that I've been engaged with for almost a decade now, and is a consistent
+                    fixture in my day-to-day schedule. I also love to play the guitar and bass <span style="font-size: small;">(I'm ok)</span>,
+                    and have been discovering the joy of playing music with others by starting a band with some friends <span style="font-size: small;">(we're ok)</span>.
+                </p>
+                <p>
+                    Of course, I spend a great deal of time playing, watching, discussing, and generally thinking
+                    about videogames. I particularly love the games produced by Capcom; Devil May Cry, Resident Evil,
+                    and Street Fighter are among my favourites. It is a life-long fascination that has entertained and 
+                    inspired me. I think it is just such a nuanced medium that allows for artistically and technically 
+                    creative minds to come together to produce experiences that can appeal to so many different
+                    sensabilities through mechanics, story, music, and art. It is an aspiration of mine to hopefully
+                    one day create something that can impact others in the same way that games like Zelda, Hollow Knight, and 
+                    Outer Wilds have impacted myself.
+                </p>
+            </div>
+        </div>
+        
+
+        <!-- Footer Menu -->
+        <div id="footer"></div>
+        <script>
+            $(function(){
+                $("#footer").load("/src/footer_menu.html");
+            });
+        </script>
+        <!-- Footer Menu End -->
+    </div>
+</body>
+
+</html>
