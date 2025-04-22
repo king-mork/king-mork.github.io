@@ -1,0 +1,15 @@
+.project-link {
+    padding: 10px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(221, 144, 0);
+    border-radius: 6px;
+
+    background-color: white;
+
+    color: rgb(221, 144, 0);
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}

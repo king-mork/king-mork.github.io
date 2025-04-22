@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Marcus King - Projects</title>
+
+    <link rel="stylesheet" type="text/css" href="/src/css/root.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="/src/css/projects.css"/>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <!--Header Menu-->
+        <div id="header"></div>
+        <script>
+            $(function(){
+                $("#header").load("/src/header_menu.html");
+            });
+        </script>
+        <!--Header Menu End-->
+
+        <div id="body">
+            <div class="content-block">
+                <h1>Gasoline Alley</h1>
+                <h2>Hey! I'm making a game!</h2>
+                <p>
+                    This project is a demo for a game that I've wanted to make since my university days. 
+                    Inspired by the classic Resident Evil games, the player will find themselves
+                    stranded in a remote town in the mountains where the inhabitants have become feral
+                    creatures that attack on sight. Gameplay will involve exploring the sparse
+                    buildings and solving puzzles with the ultimate goal of escaping the town while also 
+                    defending themselves from the residents of the town with limited resources.
+                </p>
+                <p>
+                    I'm developing this project in Unreal Engine 5. The core mechanics are still
+                    being implemented, but once it is in a shareable state I'll post a link here!
+                </p>
+                <br>
+                <a class="project-link">Coming Soon</a>
+            </div>
+        </div>
+
+        <!-- Footer Menu -->
+        <div id="footer"></div>
+        <script>
+            $(function(){
+                $("#footer").load("/src/footer_menu.html");
+            });
+        </script>
+        <!-- Footer Menu End -->
+    </div>
+</body>
+
+</html>
