@@ -1,12 +1,52 @@
+.flex-container {
+    display: flex;
+}
+
 .content-block {
     margin: 5%;
 
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     border-style: solid;
     border-width: 2px;
     border-radius: 6px;
 
     background-color: rgba(180, 180, 180, 0.5);
+}
+
+ul {
+    list-style: none;
+}
+
+.skill-container {
+    display: flex;
+    margin: auto;
+}
+
+.skill {
+    width: 25%;
+}
+
+.skill > img {
+    width: 64px;
+    height: 64px;
+
+    display: block;
+
+    margin: auto;
+}
+
+.skill > h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+.skill > p {
+    margin-top: 10px;
+
+    text-align: center;
+    font-size: 14px;
 }
