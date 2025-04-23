@@ -2,6 +2,16 @@
     display: flex;
 }
 
+.flex-container > * {
+    margin-left: 3vw;
+}
+
+.flex-container > img {
+    border-style: solid;
+    border-radius: 6px;
+    border-color: rgb(221, 144, 0);
+}
+
 ul {
     list-style: none;
 }
