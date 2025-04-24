@@ -1,14 +1,19 @@
-.flex-container {
-    display: flex;
+.grid-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
 }
 
-.flex-container > * {
-    margin-left: 3vw;
+.grid-container > * {
+    text-align: left;
 }
 
-.flex-container > img {
+.grid-container > img {
+    max-width: 300px;
+
     border-style: solid;
-    border-radius: 6px;
+    border-radius: 50%;
     border-color: rgb(221, 144, 0);
 }
 
