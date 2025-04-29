@@ -7,7 +7,7 @@
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
 
-    background-color: rgb(122, 122, 122);
+    background-color: rgb(60, 60, 60);
 }
 
 #header > * {
@@ -53,7 +53,7 @@
     
     border-radius: 6px;
 
-    background-color: white;
+    background-color: var(--bg-color);
 
     color: rgb(221, 144, 0);
     text-align: center;
