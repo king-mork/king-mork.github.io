@@ -1,6 +1,9 @@
 #header {
-    position: relative;
+    position: fixed;
     overflow: auto;
+
+    width: 100%;
+    top: 0;
 
     border-bottom: solid;
     border-color: rgb(221, 144, 0);
@@ -8,6 +11,7 @@
     border-bottom-right-radius: 6px;
 
     background-color: rgb(60, 60, 60);
+    opacity: 90%;
 }
 
 #header > * {
